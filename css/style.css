@@ -23,6 +23,11 @@ h1{
     font-size: 75px;
     padding-top: 80px;
 }
+
+main .business-plan h2{
+    font-size: 40px;
+    padding: 150px 0 50px 0;
+}
 /*---------------
     COMMON
 ---------------*/
@@ -121,6 +126,17 @@ main .hero .hero-right img{
 main .hero .hero-left, main .hero .hero-right{
     position: relative;
     bottom: -80px;
+}
+
+/*---------------
+MAIN SECTION 2
+---------------*/
+main .business-plan{
+    height: 600px;
+}
+
+main .business-plan label{
+    margin-right: 60px;
 }
 
 /*---------------
