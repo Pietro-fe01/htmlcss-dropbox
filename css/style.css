@@ -1,0 +1,48 @@
+/*---------------
+    RESET
+---------------*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*---------------
+    TYPOGRAPHY
+---------------*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*---------------
+    COMMON
+---------------*/
+.container-bigger {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-smaller {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+/*---------------
+    BUTTON
+---------------*/
+
+/*---------------
+    HEADER
+---------------*/
+
+/*---------------
+    MAIN
+---------------*/
+
+/*---------------
+    FOOTER
+---------------*/
