@@ -34,13 +34,13 @@ main .business-plan h2{
     padding: 150px 0 50px 0;
 }
 
-main .business-plan .abbonamenti .sub-name{
+main .business-plan .subscription .sub-name{
     text-align: center;
     border-bottom: 1px solid #d0d0d3;
     padding: 10px 0;
 }
 
-main .abbonamenti .subscription h3{
+main .abbonamenti .subscription h3:not(.info h3){
     padding: 30px 0 0 25px;
 }
 
@@ -72,14 +72,10 @@ main .business-plan .abbonamenti .icon{
     padding-right: 10px;
 }
 
-main .business-plan .abbonamenti .blue-icon{
-    color: #0061ff;
-}
-
+main .business-plan .abbonamenti .blue-icon,
 main .business-plan .abbonamenti .buy-now{
     color: #0061ff;
 }
-
 
 /*---------------
     COMMON
@@ -184,6 +180,7 @@ MAIN SECTION 2
 main .abbonamenti{
     justify-content: space-between;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 main .business-plan label{
@@ -203,6 +200,28 @@ main .abbonamenti .subscription hr{
     margin: 50px 25px 30px 25px;
     background-color: #d0d0d3;
     max-width: 50px;
+}
+
+main .subscription.last-sub{ 
+    width: 100%;
+    margin-top: 45px;
+}
+
+main .last-sub .info{
+    justify-content: space-between;
+}
+
+main .last-sub .info .col{
+    flex-direction: column;
+    padding: 40px 30px;
+}
+
+main .last-sub .info h4{
+    margin: 30px 0 40px 0;
+}
+
+main .last-sub .info .contact-button{
+    width: 40%;
 }
 /*---------------
     FOOTER
