@@ -19,6 +19,10 @@ header .col li a{
     color: black;
 }
 
+h1{
+    font-size: 75px;
+    padding-top: 80px;
+}
 /*---------------
     COMMON
 ---------------*/
@@ -41,19 +45,26 @@ header .col li a{
 ---------------*/
 .primary-button{
     background-color: #0061ff;
-    padding: 5px 15px;
+    padding: 8px 18px;
     color: white !important;
+    text-decoration: none;
 }
+
+main #hero-button{
+    align-self: flex-start;
+}
+
 /*---------------
     HEADER
 ---------------*/
 header {
-    /* position: sticky;
+    position: sticky;
     left: 0;
     top: 0;
-    right: 0; */
+    right: 0;
+    z-index: 100;
+    background-color: white;
     padding: 15px 0;
-    /* background-color: red; */
 }
 
 header .row{
@@ -67,16 +78,50 @@ header .col{
 }
 
 header .header-left .col li{
-    margin: 0 1.5em 0 1em;
+    margin: 0 1.5vw 0 1vw;
 }
 
 header .header-right .col li{
-    margin: 0 1em 0 1.5em;
+    margin: 0 1vw 0 1.5vw;
 }
 
 /*---------------
-    MAIN
+MAIN SECTION 1
 ---------------*/
+main .hero{
+    background-color: #b4d0e7;
+}
+
+main .hero .hero-left{
+    max-width: 30%;
+}
+
+main .hero .col.hero-left{
+    flex-direction: column;
+}
+
+main .hero .col.hero-left > *{
+    margin-bottom: 30px;
+}
+
+main .hero-left .arrow-down{
+    font-size: 50px;
+    position: relative;
+    top: 35px;
+}
+
+main .hero .hero-right{
+    max-width: 70%;
+}
+
+main .hero .hero-right img{
+    max-width: 100%;
+}
+
+main .hero .hero-left, main .hero .hero-right{
+    position: relative;
+    bottom: -80px;
+}
 
 /*---------------
     FOOTER
