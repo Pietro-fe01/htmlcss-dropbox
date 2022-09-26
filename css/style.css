@@ -31,7 +31,7 @@ main h1{
 
 main .business-plan h2{
     font-size: 40px;
-    padding: 150px 0 50px 0;
+    padding: 170px 0 50px 0;
 }
 
 main .business-plan .subscription .sub-name{
@@ -107,6 +107,14 @@ main .business-plan .abbonamenti .buy-now{
 }
 
 main #hero-button{
+    align-self: flex-start;
+}
+
+main #section-3-right .partner-button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 18px;
     align-self: flex-start;
 }
 
@@ -222,6 +230,35 @@ main .last-sub .info h4{
 
 main .last-sub .info .contact-button{
     width: 40%;
+}
+
+/*---------------
+MAIN SECTION 3
+---------------*/
+main section.section-3{
+    margin-top: 130px;
+}
+
+main #section-3-left{
+    width: 70%;
+}
+
+main #section-3-left img{
+    width: 100%;
+}
+
+main #section-3-right{
+    width: 45%;
+    flex-direction: column;
+    padding: 55px 60px;
+}
+
+main #section-3-right > *{
+    padding-bottom: 30px;
+}
+
+main #section-3-right a{
+    text-decoration: none;
 }
 /*---------------
     FOOTER
