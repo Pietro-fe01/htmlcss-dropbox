@@ -1,6 +1,8 @@
 /*---------------
     RESET
 ---------------*/
+@import url("common.css");
+@import url("button.css");
 * {
     box-sizing: border-box;
     padding: 0;
@@ -15,7 +17,6 @@ body{
 }
 
 header .col{
-    list-style: none;
     align-items: center;
 }
 
@@ -72,67 +73,17 @@ main .business-plan .abbonamenti .icon{
     padding-right: 10px;
 }
 
-main .business-plan .abbonamenti .blue-icon,
-main .business-plan .abbonamenti .buy-now,
-main .section-4-bottom a{
-    color: #0061ff;
-}
-
 /*---------------
-    COMMON
+EFFETTI / HOVER
 ---------------*/
-.container-bigger {
-    max-width: 1200px;
-    margin: auto;
+.black-effect:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
-.container-smaller {
-    max-width: 1000px;
-    margin: auto;
-}
-
-.row, .col{
-    display: flex;
-}
-
-.w-60{
-    width: 60%;
-}
-
-.w-40{
-    width: 40%;
-}
-
-
-/*---------------
-    BUTTON
----------------*/
-.primary-button{
-    background-color: #0061ff;
-    padding: 8px 18px;
-    color: white !important;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-}
-
-main #hero-button{
-    align-self: flex-start;
-}
-
-main .partner-button{
-    color: black;
-    background-color: white;
-    border: 1px solid black;
-    text-decoration: none;
-}
-
-main #section-3-right .partner-button{
-    color: black;
-    background-color: white;
-    border: 1px solid black;
-    padding: 8px 18px;
-    align-self: flex-start;
+.white-effect:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 
 /*---------------
@@ -145,7 +96,7 @@ header {
     right: 0;
     z-index: 100;
     background-color: white;
-    padding: 15px 0;
+    padding: 0.938rem 0;
 }
 
 header .row{
@@ -158,7 +109,7 @@ header .header-left .col li{
 }
 
 header .header-right .col li{
-    margin: 0 1vw 0 1.5vw;
+    margin: 0 1.5vw 0 1vw;
 }
 
 /*---------------
@@ -168,35 +119,15 @@ main .hero{
     background-color: #b4d0e7;
 }
 
-main .hero .hero-left{
-    max-width: 30%;
-}
-
-main .hero .col.hero-left{
-    flex-direction: column;
-}
-
-main .hero .col.hero-left > *{
-    margin-bottom: 30px;
-}
-
 main .hero-left .arrow-down{
     font-size: 50px;
     position: relative;
-    top: 35px;
-}
-
-main .hero .hero-right{
-    max-width: 70%;
-}
-
-main .hero .hero-right img{
-    max-width: 100%;
+    top: 1.823vw;
 }
 
 main .hero .hero-left, main .hero .hero-right{
     position: relative;
-    bottom: -80px;
+    bottom: -4.167vw;
 }
 
 /*---------------
@@ -204,49 +135,44 @@ MAIN SECTION 2
 ---------------*/
 main .abbonamenti{
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 2.604vw;
     flex-wrap: wrap;
 }
 
 main .business-plan label{
-    margin-right: 60px;
+    margin-right: 3.125vw;
 }
 
 main .business-plan .subscription{
     width: calc(100% / 3 - 40px);
-    border: 1px solid #d0d0d3;
+    border: 0.052vw solid #d0d0d3;
 }
 
 main .abbonamenti .free-trial{
-    margin: 20px 0 50px 0;
+    margin: 1.042vw 0 2.604vw 0;
 }
 
 main .abbonamenti .subscription hr{
-    margin: 50px 25px 30px 25px;
+    margin: 2.604vw 1.302vw 1.563vw 1.302vw;
     background-color: #d0d0d3;
-    max-width: 50px;
+    max-width: 2.604vw;
 }
 
 main .subscription.last-sub{ 
     width: 100%;
-    margin-top: 45px;
+    margin-top: 2.344vw;
 }
 
 main .last-sub .info{
     justify-content: space-between;
 }
 
-main .last-sub .info .col{
-    flex-direction: column;
-    padding: 40px 30px;
+main .last-sub .info .col-column{
+    padding: 2.083vw 1.563vw;
 }
 
 main .last-sub .info h4{
-    margin: 30px 0 40px 0;
-}
-
-main .last-sub .info .contact-button{
-    width: 40%;
+    margin: 1.563vw 0 2.083vw 0;
 }
 
 /*---------------
@@ -256,26 +182,8 @@ main section.section-3{
     margin-top: 130px;
 }
 
-main #section-3-left{
-    width: 70%;
-}
-
-main #section-3-left img{
-    width: 100%;
-}
-
 main #section-3-right{
-    width: 45%;
-    flex-direction: column;
     padding: 55px 60px;
-}
-
-main #section-3-right > *{
-    padding-bottom: 30px;
-}
-
-main #section-3-right a{
-    text-decoration: none;
 }
 
 /*---------------
@@ -296,14 +204,8 @@ main .section-4 .row {
     justify-content: space-between;
 }
 
-main .section-4 .col {
+main .section-4 .col-column{
     width: calc(100% / 3 - 30px);
-    flex-direction: column;
-    padding-bottom: 50px;
-}
-
-main .section-4 .col img {
-    width: 100%;
 }
 
 /*---------------
@@ -401,7 +303,6 @@ main .section-6 .col .partner-button{
 main .section-6 h2{
     font-size: 35px;
     color: #61082b;
-    width: 60%;
 }
 
 /*---------------
@@ -409,6 +310,7 @@ MAIN SECTION 7
 ---------------*/
 main .section-7 {
     margin: 130px auto;
+    position: relative;
 }
 
 main .section-7 .row{
@@ -424,49 +326,49 @@ main .section-7 .row:last-child{
 
 main .section-7 h2{
     font-size: 40px;
-    margin-bottom: 40px;
 }
 
 main .section-7 .row i{
     margin-right: 50px;
     cursor: pointer;
+    transition: transform 0.5s;
+}
+
+main .section-7 .row i:hover{
+    transform: rotate(90deg);
 }
 
 /*---------------
     FOOTER
 ---------------*/
 footer {
-    width: 100%;
+    max-width: 100%;
     background-color: black;
     color: white;
-    padding: 80px 0 0 0;
+    padding-top: 80px;
 }
 
-footer .col{
-    flex-direction: column;
+footer .col-column{
     width: calc(100% / 5);
 }
 
-footer .col h2{
-    margin-bottom: 20px;
-}
-
-footer .w-60{
+footer .lang hr{
     margin: 40px 0;
 }
 
-footer .col ul li{
+footer .col-column ul li{
     padding: 8px 0;
-    list-style: none;
 }
 
-footer .col a{
+footer .col-column a{
     color: white;
     text-decoration: none;
 }
-
-footer .row .col ul li.lang{
+footer .lang a{
     color: #999999;
+}
+
+footer .row .col-column ul li.lang{
     margin: 80px 0 40px 0;
 }
 

@@ -1,0 +1,68 @@
+/*---------------
+    CONTAINER
+---------------*/
+.container-bigger {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-smaller {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*---------------
+   OTHER STYLE
+---------------*/
+.list-none{
+    list-style: none;
+}
+
+/*---------------
+    COLOR
+---------------*/
+.blue-color{
+    color: #0061ff;
+}
+
+/*---------------
+    FLEX
+---------------*/
+.row, .col{
+    display: flex;
+}
+
+.row-column, .col-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------
+    MARGIN
+---------------*/
+.margin-b-30{
+    margin-bottom: 30px;
+}
+
+/*---------------
+    WIDTH
+---------------*/
+.img-max-w-100{
+    max-width: 100%;
+}
+
+.w-70{
+    max-width: 70%;
+}
+
+.w-60{
+    max-width: 60%;
+}
+
+.w-40{
+    max-width: 40%;
+}
+
+.w-30{
+    max-width: 30%;
+}

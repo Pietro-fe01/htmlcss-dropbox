@@ -1,0 +1,30 @@
+/*---------------
+    BUTTON
+---------------*/
+.primary-button{
+    background-color: #0061ff;
+    color: white !important;
+    padding: 8px 18px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+main #hero-button{
+    align-self: flex-start;
+}
+
+main .partner-button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+main #section-3-right .partner-button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 18px;
+    align-self: flex-start;
+}
