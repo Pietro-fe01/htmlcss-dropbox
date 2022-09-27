@@ -408,7 +408,7 @@ main .section-6 h2{
 MAIN SECTION 7
 ---------------*/
 main .section-7 {
-    margin: 120px auto;
+    margin: 130px auto;
 }
 
 main .section-7 .row{
@@ -435,3 +435,41 @@ main .section-7 .row i{
 /*---------------
     FOOTER
 ---------------*/
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 80px 0 0 0;
+}
+
+footer .col{
+    flex-direction: column;
+    width: calc(100% / 5);
+}
+
+footer .col h2{
+    margin-bottom: 20px;
+}
+
+footer .w-60{
+    margin: 40px 0;
+}
+
+footer .col ul li{
+    padding: 8px 0;
+    list-style: none;
+}
+
+footer .col a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .row .col ul li.lang{
+    color: #999999;
+    margin: 80px 0 40px 0;
+}
+
+footer .lang span{
+    padding: 0 5px;
+}
