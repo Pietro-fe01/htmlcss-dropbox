@@ -73,7 +73,8 @@ main .business-plan .abbonamenti .icon{
 }
 
 main .business-plan .abbonamenti .blue-icon,
-main .business-plan .abbonamenti .buy-now{
+main .business-plan .abbonamenti .buy-now,
+main .section-4-bottom a{
     color: #0061ff;
 }
 
@@ -92,6 +93,14 @@ main .business-plan .abbonamenti .buy-now{
 
 .row, .col{
     display: flex;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.w-40{
+    width: 40%;
 }
 
 /*---------------
@@ -260,6 +269,35 @@ main #section-3-right > *{
 main #section-3-right a{
     text-decoration: none;
 }
+
+/*---------------
+MAIN SECTION 4
+---------------*/
+main .section-4 h2{
+    margin: 110px 0 50px 0;
+    font-size: 35px;
+}
+
+main .section-4 h3 {
+    padding: 20px 0;
+    font-size: 25px;
+}
+
+main .section-4 .row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .section-4 .col {
+    width: calc(100% / 3 - 30px);
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+main .section-4 .col img {
+    width: 100%;
+}
+
 /*---------------
     FOOTER
 ---------------*/
