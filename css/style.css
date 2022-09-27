@@ -405,5 +405,33 @@ main .section-6 h2{
 }
 
 /*---------------
+MAIN SECTION 7
+---------------*/
+main .section-7 {
+    margin: 120px auto;
+}
+
+main .section-7 .row{
+    justify-content: space-between;
+    padding: 35px 0;
+    font-weight: 800;
+    border-top: 1px solid; 
+}
+
+main .section-7 .row:last-child{
+    border-bottom: 1px solid; 
+}
+
+main .section-7 h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+main .section-7 .row i{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+/*---------------
     FOOTER
 ---------------*/
