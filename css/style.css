@@ -299,5 +299,30 @@ main .section-4 .col img {
 }
 
 /*---------------
+MAIN SECTION 5
+---------------*/
+main .section-5{
+    margin-top: 110px;
+}
+
+main .section-5 .col{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    border: 1px solid;
+    flex-wrap: wrap;
+}
+
+main .section-5 .square{
+    width: 50%;
+    height: 50%;
+}
+
+main .section-5 .square img {
+    width: 100%;
+    display: block;
+    color: white;
+}
+
+/*---------------
     FOOTER
 ---------------*/
