@@ -120,6 +120,13 @@ main #hero-button{
     align-self: flex-start;
 }
 
+main .partner-button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
 main #section-3-right .partner-button{
     color: black;
     background-color: white;
@@ -274,7 +281,7 @@ main #section-3-right a{
 /*---------------
 MAIN SECTION 4
 ---------------*/
-main .section-4 h2{
+main .section-4 h2
     margin: 110px 0 50px 0;
     font-size: 35px;
 }
@@ -372,6 +379,29 @@ main .section-5 .square#sqr-7{
 }
 main .section-5 .square#sqr-8{
     background-color: #ffd830;
+}
+
+/*---------------
+MAIN SECTION 6
+---------------*/
+main .section-6 {
+    background-color: #b4d0e7;
+    max-width: 100%;
+    padding: 100px 0;
+}
+
+main .section-6 .col{
+    align-items: baseline;
+}
+
+main .section-6 .col .partner-button{
+    padding: 10px 30px;
+}
+
+main .section-6 h2{
+    font-size: 35px;
+    color: #61082b;
+    width: 60%;
 }
 
 /*---------------
