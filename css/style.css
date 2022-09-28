@@ -1,8 +1,9 @@
+@import url("common.css");
+@import url("button.css");
+
 /*---------------
     RESET
 ---------------*/
-@import url("common.css");
-@import url("button.css");
 * {
     box-sizing: border-box;
     padding: 0;
@@ -86,6 +87,14 @@ EFFETTI / HOVER
     text-decoration-color: white;
 }
 
+main .section-7 .faq:hover{
+    background-color: rgba(228, 221, 211, 0.3);
+}
+
+footer .lang-hover:hover{
+    color: white;
+}
+
 /*---------------
     HEADER
 ---------------*/
@@ -97,6 +106,7 @@ header {
     z-index: 100;
     background-color: white;
     padding: 0.938rem 0;
+    box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 20%);
 }
 
 header .row{
@@ -310,17 +320,16 @@ MAIN SECTION 7
 ---------------*/
 main .section-7 {
     margin: 130px auto;
-    position: relative;
 }
 
-main .section-7 .row{
-    justify-content: space-between;
+main .section-7 .faq{
     padding: 35px 0;
     font-weight: 800;
     border-top: 1px solid; 
+    cursor: pointer;
 }
 
-main .section-7 .row:last-child{
+main .section-7:last-child{
     border-bottom: 1px solid; 
 }
 
@@ -328,14 +337,15 @@ main .section-7 h2{
     font-size: 40px;
 }
 
-main .section-7 .row i{
-    margin-right: 50px;
-    cursor: pointer;
-    transition: transform 0.5s;
+main .section-7 .faq p{
+    padding-left: 10px;
 }
 
-main .section-7 .row i:hover{
-    transform: rotate(90deg);
+main .section-7 .faq i{
+    margin-right: 50px;
+    cursor: pointer;
+    float: right;
+    transition: transform 0.5s;
 }
 
 /*---------------
@@ -375,3 +385,5 @@ footer .row .col-column ul li.lang{
 footer .lang span{
     padding: 0 5px;
 }
+
+
