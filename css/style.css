@@ -1,5 +1,6 @@
 @import url("common.css");
 @import url("button.css");
+@import url("effects.css");
 
 /*---------------
     RESET
@@ -75,27 +76,6 @@ main .business-plan .abbonamenti .icon{
 }
 
 /*---------------
-EFFETTI / HOVER
----------------*/
-.black-effect:hover{
-    text-decoration: underline;
-    text-decoration-color: black;
-}
-
-.white-effect:hover{
-    text-decoration: underline;
-    text-decoration-color: white;
-}
-
-main .section-7 .faq:hover{
-    background-color: rgba(228, 221, 211, 0.3);
-}
-
-footer .lang-hover:hover{
-    color: white;
-}
-
-/*---------------
     HEADER
 ---------------*/
 header {
@@ -132,7 +112,7 @@ main .hero{
 main .hero-left .arrow-down{
     font-size: 50px;
     position: relative;
-    top: 1.823vw;
+    top: 35px;
 }
 
 main .hero .hero-left, main .hero .hero-right{

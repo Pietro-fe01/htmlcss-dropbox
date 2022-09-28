@@ -1,0 +1,71 @@
+/*---------------
+EFFETTI / HOVER
+---------------*/
+.black-effect:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.white-effect:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+main .section-7 .faq:hover{
+    background-color: rgba(228, 221, 211, 0.3);
+}
+
+footer .lang-hover:hover{
+    color: white;
+}
+
+/*----------------------------
+ANIMAZIONI DOMANDE FREQUENTI
+-----------------------------*/
+main .section-7 .answer{
+    position: absolute;
+    left: -4000px;
+    transition: all 0.5s;
+}
+
+main .section-7 .visually-hidden {
+    position: absolute;
+    left: -100vw;
+}
+  
+main .section-7 input[name="answer-box-name"]:checked + i{
+    transform: rotate(180deg);
+}
+
+main .section-7 #answer-box1:checked ~ .answer,
+main .section-7 #answer-box2:checked ~ .answer,
+main .section-7 #answer-box3:checked ~ .answer,
+main .section-7 #answer-box4:checked ~ .answer{
+    padding: 30px 80px 0 40px;
+    display: block;
+    position: relative;
+    left: 0;
+    transform: rotate(1080deg);
+}
+
+/*---------------
+   KEYFRAMES
+---------------*/
+.section-1 .hero-left .arrow-down{
+    animation: moving-arrow-down 1.5s linear infinite;
+}
+
+@keyframes moving-arrow-down {
+    0%{
+        position: relative;
+        top: 35px;
+    }
+    50%{
+        position: relative;
+        top: 70px;
+    }
+    100%{
+        position: relative;
+        top: 35px;
+    }
+}
