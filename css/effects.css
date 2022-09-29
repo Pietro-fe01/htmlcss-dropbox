@@ -21,12 +21,9 @@ footer .lang-hover:hover{
 
 footer .lang-menu:hover{
     background-color: rgba(153, 153, 153, 0.5);
+    text-decoration: underline;
+    text-decoration-color: white;
 }
-
-/* footer .lang-hover:hover i:not(.world-icon){
-    transform: rotate(180deg);
-    transition: transform 0.5s;
-} */
 
 /*----------------------------
 ANIMAZIONI DOMANDE FREQUENTI
@@ -78,7 +75,7 @@ footer #languages-selection:checked ~ .lang-menu{
   padding-left: 30px;
   margin-top: 10px;
   opacity: 1;
-  max-width:50%;
+  width:50%;
 }
 
 footer #languages-selection:checked ~ .lang-menu div{
