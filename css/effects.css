@@ -19,6 +19,15 @@ footer .lang-hover:hover{
     color: white;
 }
 
+footer .lang-menu:hover{
+    background-color: rgba(153, 153, 153, 0.5);
+}
+
+/* footer .lang-hover:hover i:not(.world-icon){
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+} */
+
 /*----------------------------
 ANIMAZIONI DOMANDE FREQUENTI
 -----------------------------*/
@@ -28,7 +37,8 @@ main .section-7 .answer{
     transition: all 0.5s;
 }
 
-main .section-7 .visually-hidden {
+main .section-7 .visually-hidden,
+footer .visually-hidden {
     position: absolute;
     left: -100vw;
 }
@@ -46,6 +56,34 @@ main .section-7 #answer-box4:checked ~ .answer{
     position: relative;
     left: 0;
     transform: rotate(1080deg);
+}
+
+/*----------------------------
+ANIMAZIONI MENU' LINGUE FOOTER
+-----------------------------*/
+footer .lang-menu{
+    transition: all 1s, padding-left 0s, background-color 0.3s;
+    display: flex;
+    cursor: pointer;
+}
+
+footer input[name="lang-menu-box"]:checked ~ i:not(.world-icon){
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+}
+
+footer #languages-selection:checked ~ .lang-menu{
+  color:white;
+  border:1px solid white;
+  padding-left: 30px;
+  margin-top: 10px;
+  opacity: 1;
+  max-width:50%;
+}
+
+footer #languages-selection:checked ~ .lang-menu div{
+  opacity: 1;
+  position: relative;
 }
 
 /*---------------

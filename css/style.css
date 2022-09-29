@@ -366,4 +366,8 @@ footer .lang span{
     padding: 0 5px;
 }
 
+footer .lang-menu div{
+    opacity: 0;
+    position: absolute;
+}
 
